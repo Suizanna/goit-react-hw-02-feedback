@@ -1,25 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import { Component } from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class App extends Component {
+//внутреннее состояние, которое изменяется методами самого class
+  state = {
+    good: 0,
+    neutral: 0,
+    bad: 0
+  };
+
+  addFeedback = () => {
+     this.setState( (prevState) => prevState +1) //от предыдущее состояние
+   };
+  //вспомогательные методы //публичное свойство class
+  countTotalFeedback = () =>{};
+  countPositiveFeedbackPercentage = () => { };
+  
+    render() {
+      return (
+        <div>
+          
+        </div>
+      )
+    }
 }
+
+
 
 export default App;
