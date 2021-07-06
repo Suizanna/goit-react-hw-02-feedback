@@ -1,9 +1,9 @@
 import { Component } from 'react';
 import Statistics from './components/Statistics/Statistics';
 // import FeedbackOptions from './components/FeedbackOptions/FeedbackOptions';
+// import Notification from './components/Notification/Notification';
 import FeedbackOptions from './components/FeedbackOptions';
 import Section from './components/Section/Section';
-// import Notification from './components/Notification/Notification';
 import Notification from './components/Notification';
 
 
