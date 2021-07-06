@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Suizanna/goit-react-hw-02-feedback/static/css/main.47c75f71.chunk.css",
-    "main.js": "/Suizanna/goit-react-hw-02-feedback/static/js/main.e2fba1da.chunk.js",
-    "main.js.map": "/Suizanna/goit-react-hw-02-feedback/static/js/main.e2fba1da.chunk.js.map",
+    "main.css": "/Suizanna/goit-react-hw-02-feedback/static/css/main.cef4f16f.chunk.css",
+    "main.js": "/Suizanna/goit-react-hw-02-feedback/static/js/main.1860bc07.chunk.js",
+    "main.js.map": "/Suizanna/goit-react-hw-02-feedback/static/js/main.1860bc07.chunk.js.map",
     "runtime-main.js": "/Suizanna/goit-react-hw-02-feedback/static/js/runtime-main.feca4b5d.js",
     "runtime-main.js.map": "/Suizanna/goit-react-hw-02-feedback/static/js/runtime-main.feca4b5d.js.map",
     "static/css/2.bc922b9c.chunk.css": "/Suizanna/goit-react-hw-02-feedback/static/css/2.bc922b9c.chunk.css",
@@ -10,14 +10,14 @@
     "static/js/2.021cba43.chunk.js.map": "/Suizanna/goit-react-hw-02-feedback/static/js/2.021cba43.chunk.js.map",
     "index.html": "/Suizanna/goit-react-hw-02-feedback/index.html",
     "static/css/2.bc922b9c.chunk.css.map": "/Suizanna/goit-react-hw-02-feedback/static/css/2.bc922b9c.chunk.css.map",
-    "static/css/main.47c75f71.chunk.css.map": "/Suizanna/goit-react-hw-02-feedback/static/css/main.47c75f71.chunk.css.map",
+    "static/css/main.cef4f16f.chunk.css.map": "/Suizanna/goit-react-hw-02-feedback/static/css/main.cef4f16f.chunk.css.map",
     "static/js/2.021cba43.chunk.js.LICENSE.txt": "/Suizanna/goit-react-hw-02-feedback/static/js/2.021cba43.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.feca4b5d.js",
     "static/css/2.bc922b9c.chunk.css",
     "static/js/2.021cba43.chunk.js",
-    "static/css/main.47c75f71.chunk.css",
-    "static/js/main.e2fba1da.chunk.js"
+    "static/css/main.cef4f16f.chunk.css",
+    "static/js/main.1860bc07.chunk.js"
   ]
 }
