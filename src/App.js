@@ -19,25 +19,24 @@ class App extends Component {
   //в этот параметр аргументом записывается старый state
   addFeedback = option => {
     this.setState(prevState => ({
-      [option]: prevState[option] + 1, //от предыдущего состояния +1
+      [option]: prevState[option] + 1,
     }));
   };
-  // 2 вариант без
+  // 2 вариант. в FeedbackOptions смотреть
   //   addFeedback = e => {
   //     this.setState(prevState => {
   //       return {
-  //         // вычисляемое свойство объекта [e.target.name] поэтому []
+  //         // вычисляемое свойство объекта [e.target.name] поэтому в []
   //         [e.target.name]: prevState[e.target.name] + 1,
   //       };
   //     });
   //   };
 
-  //вспомогательные методы //публичное свойство class
   countTotalFeedback = () => {
-    // return Object.values(this.state).reduce((acc, option) => acc + option, 0);
+    return Object.values(this.state).reduce((acc, option) => acc + option, 0);
     // 2 вар
-    const { good, neutral, bad } = this.state;
-    return good + neutral + bad;
+    // const { good, neutral, bad } = this.state;
+    // return good + neutral + bad;
   };
 
   countPositiveFeedbackPercentage = () => {
@@ -55,9 +54,9 @@ class App extends Component {
       <>
         <Section title="Please leave feedback">
           <FeedbackOptions
-            // options={Object.keys(this.state)}
+            options={Object.keys(this.state)}
             // 2 вар
-            options={['good', 'neutral', 'bad']}
+            // options={['good', 'neutral', 'bad']}
             onLeaveFeedback={this.addFeedback}
           />
         </Section>
